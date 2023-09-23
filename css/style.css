@@ -82,6 +82,7 @@ gap: 40px;
 
 .first-section {
 background-color: #2E2F42;
+padding: 188px 0;
 } 
 
 .hero-text {
@@ -92,6 +93,7 @@ font-weight: 700;
 letter-spacing: 1.12px;
 line-height: 1.07;
 text-align: center;
+max-width: 496px; 
 }
 .hero-button {
 background: #4D5AE5;
@@ -102,7 +104,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
-
+display: block;
+min-width: 169px;
+height: 56px;
+border: none; 
+background-color:  #4d5ae5; 
+border-radius: 4px;
+cursor: pointer;
 }
 
 .hero-button:hover {
