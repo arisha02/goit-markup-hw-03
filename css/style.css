@@ -20,6 +20,10 @@ a {
     padding: 0 15px 0 15px;
 
    }
+   .menu {
+    display: flex;
+    gap: 40px;
+   }
    .first {
     display: flex;
     align-items: center;
