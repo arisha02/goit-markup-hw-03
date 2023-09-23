@@ -16,7 +16,16 @@ a {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+
    }
+   .first {
+    display: flex;
+    align-items: center;
+
+   }
+  
 
 .color-logo {
 color: #2E2F42;
@@ -29,6 +38,9 @@ font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.32px;
 line-height: 1.5;
+display: flex; 
+gap: 40px;
+padding: 24px 0;
 }
 .header-link:hover {
     color: #404bbf;  
@@ -135,6 +147,7 @@ line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .other-color {
    color: #f4f4fd;
